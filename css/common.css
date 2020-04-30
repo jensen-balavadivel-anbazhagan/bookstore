@@ -1,0 +1,59 @@
+.topnav {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: rgb(9, 11, 44);
+    width: 100%;
+  }
+    
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+    
+  .topnav a:hover {
+    background-color: rgb(161, 155, 175);
+    color: black;
+  }
+    
+  .topnav a.active {
+    background-color: rgb(178, 163, 187);
+    color: white;
+  }
+  
+
+  .logo {
+    width:10%;
+    height:100px;
+  }
+
+  .logo img {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    background-color: rgb(9, 11, 44);
+    filter: grayscale(rgb(9,11,44));
+  }
+
+  a {
+    color: darkblue;
+    font-size: medium;
+    font-weight: 200;
+  }
+
+  .openChat {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
