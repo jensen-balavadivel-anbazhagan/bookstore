@@ -1,5 +1,6 @@
 
 Inlämningsuppgift 2
+
 Instruktioner
 Du ska i denna uppgift bygga en front-end för din e-handelsida och anropa ditt API som du byggde i inlämningsuppgift 1. En användare ska kunna se alla produkter på en produktlistningssida och välja att lägga till en till flera produkter i sin varukorg.
 
